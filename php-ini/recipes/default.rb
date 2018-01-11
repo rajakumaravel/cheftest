@@ -14,3 +14,5 @@ end
 service 'apache2' do
   action :restart
 end
+
+Chef::Log.info('Hello I am a recipe')
